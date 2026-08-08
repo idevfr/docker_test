@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000;
 connectDB()
   .then(() => {
     app.listen(PORT, () => {
-      console.log(`app is running at: http://localhost:${PORT}`);
+      console.log(`running at: http://localhost:${PORT}`);
     });
   })
   .catch((err) => {
